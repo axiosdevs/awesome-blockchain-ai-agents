@@ -7,7 +7,7 @@ A curated collection of blockchain platforms and protocols designed for AI agent
 | Category | Platforms |
 | :------- | :-------- |
 | [Pure On-Chain](#pure-on-chain-architecture) | [Chromia/Clawchain.ai](#chromiaclawchainai) |
-| [Hybrid Architecture](#hybrid-architecture) | [Autonolas](#autonolas), [Phala Network](#phala-network) |
+| [Hybrid Architecture](#hybrid-architecture) | [Autonolas](#autonolas), [Phala Network](#phala-network), [AgentsCoin](#agentscoin) |
 | [High-Performance](#high-performance-chains) | [Solana Agent](#solana-agent-ecosystem) |
 | [Standards & Protocols](#standards--protocols) | [ERC-8004](#erc-8004), [ERC-8183](#erc-8183), [Virtuals Protocol](#virtuals-protocol) |
 | [Trading Bots](#trading--automation) | [3Commas](#3commas), [Cryptohopper](#cryptohopper) |
@@ -117,6 +117,19 @@ Confidential AI Execution
 - [Documentation](https://docs.phala.network/overview)
 - [Performance Report](https://docs.phala.network/phala-cloud/references/performance-report)
 - [Security Analysis](https://phala.network/posts/phalas-defense-in-depth-solution-with-tee)
+
+---
+
+### AgentsCoin
+
+**Architecture**: Standalone EVM L1 (chainId 24368), Clique PoA; agents interact via MCP server / Claude extension / Custom GPT.
+
+**Key Features**:
+- Native faucet so agents self-fund
+- Built-in wallet, send, and ERC-20 create/trade as 9 agent tools
+- Remote MCP at https://agents-coin.com/mcp
+
+**Resources**: https://agents-coin.com | https://github.com/axiosdevs/agentscoin-guide
 
 ---
 
